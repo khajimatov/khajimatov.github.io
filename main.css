@@ -52,9 +52,24 @@ body {
   margin-top: 10px;
 }
 .socials {
-    font-weight: 300;
-    font-size: 14px;
+  font-weight: 300;
+  font-size: 14px;
   display: flex;
   align-items: center;
   margin-top: 18px;
+}
+@-webkit-keyframes glow {
+  to {
+    /* border-color: #ff0000; */
+    -webkit-box-shadow: 0 0 5px #fff;
+    -moz-box-shadow: 0 0 5px #fff;
+    box-shadow: 0 0 5px #fff;
+  }
+}
+
+.profile-image {
+  -webkit-animation: glow 1s infinite alternate;
+  -webkit-transition: border 1s linear, box-shadow 1s linear;
+  -moz-transition: border 1s linear, box-shadow 1s linear;
+  transition: border 1s linear, box-shadow 1s linear;
 }
