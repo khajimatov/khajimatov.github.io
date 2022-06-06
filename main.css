@@ -58,7 +58,7 @@ body {
   align-items: center;
   margin-top: 18px;
 }
-@-webkit-keyframes glow {
+@keyframes glow {
   to {
     /* border-color: #ff0000; */
     -webkit-box-shadow: 0 0 5px #fff;
@@ -68,7 +68,7 @@ body {
 }
 
 .profile-image {
-  -webkit-animation: glow 1s infinite alternate;
+  animation: glow 1s infinite alternate;
   -webkit-transition: border 1s linear, box-shadow 1s linear;
   -moz-transition: border 1s linear, box-shadow 1s linear;
   transition: border 1s linear, box-shadow 1s linear;
