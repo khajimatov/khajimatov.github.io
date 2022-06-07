@@ -75,13 +75,13 @@ body {
 }
 
 .wrapper {
-  animation: glow 1s infinite alternate;
+  animation: glow 3s infinite alternate;
   -webkit-transition: border 1s linear, box-shadow 1s linear;
   -moz-transition: border 1s linear, box-shadow 1s linear;
   transition: border 1s linear, box-shadow 1s linear;
 }
 .profile-image {
-  animation: glow2 1s infinite alternate;
+  animation: glow2 3s infinite alternate;
 }
 .socials img {
   cursor: pointer;
