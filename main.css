@@ -58,6 +58,7 @@ body {
   font-size: 14px;
   display: flex;
   align-items: center;
+  text-align: center;
   margin-top: 18px;
 }
 @keyframes glow {
@@ -83,12 +84,16 @@ body {
 .profile-image {
   animation: glow2 3s infinite alternate;
 }
-.socials img {
+.socials svg {
   cursor: pointer;
-  margin-top: 3px;
+  /* margin-top: 3px; */
+  line-height: 100%;
 }
 .socials p {
   cursor: pointer;
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
 }
 .learning {
   margin: 60px 50px 0px 60px;
